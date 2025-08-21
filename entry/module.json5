@@ -1,0 +1,26 @@
+{
+  module: {
+    name: "entry",
+    type: "entry",
+    srcEntry: "./src/main/ets/entryability/EntryAbility.ets",
+    description: "$string:entry_desc",
+    deviceType: [ "phone", "tablet", "wearable", "2in1" ],
+    router: {
+      pages: "./src/main/resources/base/profile/main_pages.json"
+    },
+    abilities: [
+      {
+        name: "EntryAbility",
+        srcEntry: "./src/main/ets/entryability/EntryAbility.ets",
+        description: "$string:entry_desc",
+        label: "$string:app_name",
+        startWindowBackground: "$color:start_window_background"
+      }
+    ],
+    requestPermissions: [],
+    apiVersion: {
+      compatible: 11,
+      target: 11
+    }
+  }
+}

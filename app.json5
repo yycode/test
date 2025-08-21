@@ -1,0 +1,14 @@
+{
+  app: {
+    bundleName: "com.example.tankgame",
+    vendor: "example",
+    version: {
+      code: 1000000,
+      name: "1.0.0"
+    },
+    apiVersion: {
+      compatible: 11,
+      target: 11
+    }
+  }
+}

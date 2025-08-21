@@ -1,0 +1,15 @@
+{
+  name: "tank-game",
+  version: "1.0.0",
+  description: "Simple ArkTS tank game",
+  repository: "",
+  license: "MIT",
+  dependencies: {},
+  devDependencies: {
+    "@ohos/hvigor": "^5.1.1",
+    "@ohos/hvigor-ohos-plugin": "^5.1.1"
+  },
+  engines: {
+    ohpm: ">=3.0.0"
+  }
+}

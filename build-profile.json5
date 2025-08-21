@@ -1,0 +1,27 @@
+{
+  app: {
+    compileSdkVersion: 11,
+    compatibleSdkVersion: 11,
+    buildModeSet: [
+      { name: "debug", signingConfig: "default" },
+      { name: "release", signingConfig: "default" }
+    ]
+  },
+  modules: [
+    {
+      name: "entry",
+      srcPath: "./entry",
+      targets: [
+        { name: "default", applyToProducts: [ "default" ] }
+      ]
+    }
+  ],
+  products: [
+    {
+      name: "default",
+      compatibleSdkVersion: 11,
+      compileSdkVersion: 11,
+      deviceType: [ "phone", "tablet", "2in1", "wearable" ]
+    }
+  ]
+}

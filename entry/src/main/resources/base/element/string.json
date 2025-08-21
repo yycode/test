@@ -1,0 +1,6 @@
+{
+  "string": [
+    { "name": "app_name", "value": "Tank Game" },
+    { "name": "entry_desc", "value": "Tank game entry ability" }
+  ]
+}
